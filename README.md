@@ -19,22 +19,6 @@
   
   (2)如果是目录文件直接调用递归函数，在目标路径下依次创建，并通过线程池完成相应的普通文件复制。
 
-### 项目架构
-
-├── copy
-├── include
-│   ├── copy.h
-│   └── thread_pool.h
-├── main.c
-├── main.o
-├── Makefile
-├── readme.txt
-├── src
-    ├── copy.c
-    ├── copy.o
-    ├── thread_pool.c
-    └── thread_pool.o
-
 ### 实现过程
 
 普通文件复制函数，通过系统IO，复制普通文件及其内容。
